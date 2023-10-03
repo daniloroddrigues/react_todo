@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Todo = ({ todo }) => {
   return (
     <div key={todo.id} className="todo">
