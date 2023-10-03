@@ -1,4 +1,4 @@
-export const Todo = ({ todo, removeTodo, completeTodo }) => {
+const Todo = ({ todo, removeTodo, completeTodo }) => {
   return (
     <div
       key={todo.id}
@@ -20,3 +20,5 @@ export const Todo = ({ todo, removeTodo, completeTodo }) => {
     </div>
   );
 };
+
+export default Todo;
