@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Todo } from "./components/Todo";
 
 import "./App.css";
+import TodoForm from "./components/TodoForm";
 
 function App() {
   // any api
@@ -35,6 +36,7 @@ function App() {
           <Todo key={todo.id} todo={todo} />
         ))}
       </div>
+      <TodoForm />
     </div>
   );
 }
