@@ -33,6 +33,7 @@ input {
 }
 
 button {
+  margin-right: 10px;
   background-color: #333974;
   color: #ffffff;
   padding: 5px 10px;
@@ -66,4 +67,21 @@ select {
 
 .remove {
   background-color: #d9534f;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555555;
+}
+
+.todo {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
